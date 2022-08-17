@@ -2,10 +2,20 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int a = 0;
+	cout << "Enter a number: ";
+	cin >> a;
+	if (a%2 == 0){
+		cout << "Number " << a<< " is even\n";
+   	}
+	else
+	{
+		cout << "Number " << a << " is odd\n";
+	}
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
